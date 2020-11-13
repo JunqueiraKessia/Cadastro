@@ -1,0 +1,39 @@
+.Formulario {
+  float: left;
+  width: 140%;
+  margin: 5px;
+}
+
+h2{
+font-size: 15px;
+font-style: helvetica;
+color: #000;
+text-align: center;
+background-color: #FFF;
+font-weight: normal;
+}
+#FormularioCadastro{
+
+   border: 1px solid #CCC;
+   margin-left: 480px;
+   width: 400px;
+   height: 600px;
+  padding: 1em;
+}
+
+.inputText{
+width: 70%;
+height: 20px;
+font-size: 15px;
+color: #444;
+}
+
+.send-buttons{
+  width: 20%;
+  height: 30px;
+  cursor: pointer;
+  background: #CCC;
+  color: #FFF;
+  font-weight: bold;
+  font-size: 22px;
+}

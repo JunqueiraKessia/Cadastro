@@ -1,0 +1,73 @@
+<!DOCTYPE html >
+
+<html>
+  <head>
+      <title>Cadrastro para compra </title>
+      <link rel="stylesheet" type="text/css" href="Cadastro.css">
+      <meta charset="UTF-8">
+  </head>
+
+  <body>
+
+<div name="FormularioCadastro" id="FormularioCadastro" >
+
+    <div id="title">
+      <h1 id="title-form"> Cadastro de novo Usuário</h1>
+    </div>
+
+    <h2> Itens marcados com * são obrigatórios!</h2>
+    <div class="Formulario">
+      <label for="nome">Nome:*</label><br>
+      <input type"text" class="inputText" name="nome" id="nome" placeholder="Digite seu nome completo"   />
+    </div>
+
+    <div class="Formulario">
+      <label for="email">E-mail:*</label><br>
+      <input type"email" class="inputText" name="email" id="email" placeholder="Digite sue e-mail"  />
+    </div>
+
+    <div class="Formulario">
+      <label for="telefone">Telefone:</label> <br>
+      <input type=tel class="inputText" name="telefone" id="telefone" placeholder="Digite seu número"  />
+    </div>
+
+    <div class="Formulario">
+      <label for="login">Usuário:*</label><br>
+      <input typet "text" class="inputText" name="login" id="login" placeholder="Digite seu login"   />
+    </div>
+
+    <div class="Formulario">
+      <label for="password">Senha:*</label><br>
+      <input type"text" class="inputText" name="password" id="password" placeholder="Digite sua senha"  />
+    </div>
+
+    <div class="Formulario">
+      <label for="idade">Idade:</label><br>
+      <input type"text" class="inputText" name="idade" id="idade" placeholder="Digite sua idade"  />
+    </div>
+
+    <div class="Formulario">
+      <label for="gender">Gênero:</label> <br>
+      <input type="radio" name=gender value="Masculino"  > Masculino
+
+        <br/>
+      <input type="radio" name=gender value="Femino"  > Feminino
+
+        <br/>
+      <input type="radio" name=gender value="Não informar"  > Prefiro não informar
+
+        <br/>
+    </div>
+
+    <div class="Formulario">
+      <button  class="send-buttons" onclick="enviar()"> Enviar </button>
+    </div>
+
+<h3 id="confirmar"><h3>
+
+</div>
+
+<script src="scripts 1.js"></script>
+  </body>
+
+  </html>
